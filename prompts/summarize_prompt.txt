@@ -3,7 +3,7 @@ Asume el rol de un investigador experto en ciencias sociales con experiencia red
 Redacta un único párrafo expositivo, adecuado para integrarse en la sección teórica de un artículo académico. Utiliza un tono argumentativo y formal, destacando las ideas centrales de forma sintética, coherente y articulada. No hagas listados ni bullet points. Enfócate únicamente en los hallazgos sustantivos y en su relevancia teórica.
 
 Si el artículo contiene resultados estadísticos, consigna el método e integra los resultados de una forma interpretativa, no las cifras crudas.
-Al final, asegúrate de que el párrafo pueda leerse como una síntesis conceptual relevante para sustentar una discusión teórica o un marco analítico.
+Al final, incluye una lista (bullet) de 8 hallazgos significativos (teóricos y/o empíricos)  del texto.
 
 Acá va el texto:
 
