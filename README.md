@@ -6,7 +6,8 @@ This is an application whose purpose is to facilitate the review of large corpor
 
 ## Technologies used
 
-LLM: GPT-4o-mini; DeepSeek-V3	
+LLM: GPT-4o-mini; DeepSeek-V3
+
 Libraries: PyMuPDF; Openai
 
 ## Installation
@@ -30,13 +31,13 @@ python main.py
 
 The script will do the following:
 
-*1. Extract the main text from the PDF, ignoring headers.
+*1. Extract the main text from the PDF, ignoring headers.*
 
-*2. Calculate word statistics (total, unique, most frequent).* *3.
+*2. Calculate word statistics (total, unique, most frequent).*
 
-*3. Generate the required task to the LLM.
+*3. Generate the required task to the LLM.*
 
-*4. Recalculate statistics on the generated text.* *5.
+*4. Recalculate statistics on the generated text.*
 
 *5. Save the output in an .md file with the name of the author and year of the article.*
 
