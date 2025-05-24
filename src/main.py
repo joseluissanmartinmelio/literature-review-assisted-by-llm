@@ -6,9 +6,9 @@ from prompt_loader import load_prompt
 import os
 
 if __name__ == "__main__":
-    pdf_path = "G:/Mi unidad/Repositorios-github/pdf-text-extractor/test/jacqueline_kazil.pdf"
-    author_year = "jacqueline_kazil,2015"
-    output_path = f"G:/Mi unidad/Repositorios-github/pdf-text-extractor/test/{author_year}.md"
+    pdf_path = ""
+    author_year = ""
+    output_path = f"{author_year}.md"
     prompt_path = "prompts/summarize_prompt.txt"
 
     text = extract_text_without_footer_header(pdf_path)
