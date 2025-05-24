@@ -1,45 +1,46 @@
-# Revisión de literatura con LLMs
+# Literature review with LLMs
 
-## Descripción
+## Description
 
-Esta es una aplicación cuya finalidad es facilitar la revisión de grandes corpus de literatura, especialmente, en ciencias sociales. El proceso consisten en extraer el texto de un pdf, evadir el header del texto (puede sensibilizarse en el código fuente), integrar el texto a una ventana de contexto para algún modelo de lenguage natural utilizando el paquete Openai (openai y deepseek). Los prompts consigandos tienen dos funciones, la primera es realizar un resumen general del texto, incorporando los principales argumentos teóricos y la metodología utilizada junto a sus principales resultados, la segunda función es extraer la revisión de literatura del texto, obteniendo una lista de los/as autores/as citados y las principales ideas asociadas a ellos/as.
+This is an application whose purpose is to facilitate the review of large corpora of literature, especially in the social sciences. The process consists of extracting the text from a pdf, bypassing the text header (can be sensitized in the source code), integrating the text into a context window for some natural language model using the Openai package (openai and deepseek). The consigandos prompts have two functions, the first is to make a general summary of the text, incorporating the main theoretical arguments and the methodology used together with its main results, the second function is to extract the literature review of the text, obtaining a list of the authors cited and the main ideas associated with them.
 
-## Tecnologías usadas
+## Technologies used
 
 LLM: GPT-4o-mini; DeepSeek-V3	
-Librerias: PyMuPDF; Openai
+Libraries: PyMuPDF; Openai
 
-## Instalación
+## Installation
 
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/joseluissanmartinmelio/literature-review-assisted-by-llm.git
+cd literature-review-assisted-by-llm
+# Recommended to create a virtual environment
 pip install -r requirements.txt
 ```
 
-## Cómo usar
+## How to use
 
-1. Coloca tu archivo PDF en la carpeta deseada (por defecto: test/).
-2. Asegúrate de tener configurado tu archivo de prompt en prompts/ (hay dos prompts por defecto)
-3. Ejecuta el script main.py:
+1. Place your PDF file in the desired folder (default: test/).
+2. Make sure you have configured your prompt file in prompts/ (there are two prompts by default).
+3. Run the main.py script:
 
 ```bash
 python main.py
 ```
 
-El script hará lo siguiente:
+The script will do the following:
 
-*1. Extraer el texto principal del PDF, ignorando encabezados.*
+*1. Extract the main text from the PDF, ignoring headers.
 
-*2. Calcular estadísticas de palabras (totales, únicas, más frecuentes).*
+*2. Calculate word statistics (total, unique, most frequent).* *3.
 
-*3. Se genera la tarea requerida al LLM.*
+*3. Generate the required task to the LLM.
 
-*4. Volver a calcular estadísticas sobre el texto generado.*
+*4. Recalculate statistics on the generated text.* *5.
 
-*5. Guardar la salida en un archivo .md con el nombre del autor y año del artículo.*
+*5. Save the output in an .md file with the name of the author and year of the article.*
 
-Puedes modificar el prompt fácilmente cambiando el archivo en esta línea del código:
+You can easily modify the prompt by changing the file in this line of code:
 
 ```python
 prompt_path = "prompts/summarize_prompt.txt"
@@ -47,5 +48,5 @@ prompt_path = "prompts/summarize_prompt.txt"
 
 # TODO
 
-1. Trabajando en una interfaz simple
-2. Estableciendo algunas métricas pra medir el rendimiento con distintos modelos de LLM de código abierto y de paga.
+1. Working on a simple interface
+2. Establishing some metrics to measure performance with different open source and paid LLM models.
