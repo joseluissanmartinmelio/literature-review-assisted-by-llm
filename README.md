@@ -6,7 +6,7 @@ This is an application whose purpose is to facilitate the review of large corpor
 
 ## Technologies used
 
-LLM: GPT-4o-mini; DeepSeek-V3	
+LLM: GPT-4o-mini; DeepSeek-V3
 Libraries: PyMuPDF; Openai
 
 ## Installation
