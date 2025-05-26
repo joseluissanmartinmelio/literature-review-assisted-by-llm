@@ -1,0 +1,21 @@
+A partir del texto académico completo que se presenta a continuación, redacta un abstract claro, conciso y bien estructurado que solo incluya información explícitamente argumentada y expuesta en el texto original. El abstract debe seguir rigurosamente esta estructura:
+
+Hipótesis fuerte e interesante que inicie con "La literatura sostiene que..." y que esté directamente relacionada con el subtema particular tratado en el texto. Esta hipótesis debe reflejar un debate relevante o una expectativa teórica significativa.
+
+Tema central del estudio, formulado de manera clara, que permita entender el foco principal de la investigación.
+
+Subtema particular analizado, que debe comenzar con la frase "Según estudios previos...", y exponer el enfoque específico abordado dentro del tema general.
+
+Justificación académica del estudio, explicando por qué esta investigación es relevante, necesaria o novedosa en el campo académico correspondiente.
+
+Datos y métodos utilizados, señalando con precisión los tipos de datos empleados y las metodologías aplicadas para el análisis.
+
+Principales resultados empíricos obtenidos, con énfasis en los hallazgos más relevantes y cómo estos contribuyen al conocimiento existente.
+
+No incluyas información que no esté directamente contenida o argumentada en el texto original. No inventes ni reformules implicaciones si no están explícitas. Mantén un tono académico.
+
+No sobrepases los 250 tokens
+
+Texto académico fuente:
+
+{context}

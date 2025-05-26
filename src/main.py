@@ -9,7 +9,7 @@ if __name__ == "__main__":
     pdf_path = ""
     author_year = ""
     output_path = f"{author_year}.md"
-    prompt_path = "prompts/summarize_prompt.txt"
+    prompt_path = ""
 
     text = extract_text_without_footer_header(pdf_path)
     print("\nExtracted Text\n")
